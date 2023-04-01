@@ -1,0 +1,28 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "ChatApp created using nodejs ,express and socket.io",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamprashant12/ChatApp.git"
+  },
+  "author": "Prashant Shishodia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamprashant12/ChatApp/issues"
+  },
+  "homepage": "https://github.com/iamprashant12/ChatApp#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
